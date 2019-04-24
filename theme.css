@@ -5,6 +5,51 @@ body {
   font-family: "Saira", sans-serif;
 }
 
+<<<<<<< HEAD
+section {
+  background-color: #699ef4;
+  width: 90%;
+  height: 800px;
+  margin: 50px auto 50px auto;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+}
+
+article#left {
+  width: 50%;
+  height: 800px;
+  background-color: white;
+  float: left;
+}
+
+article#right {
+  width: 50%;
+  height: 800px;
+  background-color: #699ef4;
+  float: left;
+}
+
+div#name {
+  background-color: #699ef4;
+  width: 300px;
+  height: 100px;
+  text-align: right;
+  margin-top: 500px;
+  float: right;
+ -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+div#surname {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  text-align: left;
+  margin-top: 400px;
+  float: left;
+ -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+=======
 section#main {
   background-color: #699ef4;
   width: 90%;
@@ -12,3 +57,4 @@ section#main {
   margin: 50px auto 0px auto;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
 }
+>>>>>>> master
