@@ -5,7 +5,6 @@ body {
   font-family: "Saira", sans-serif;
 }
 
-<<<<<<< HEAD
 section {
   background-color: #699ef4;
   width: 90%;
@@ -49,12 +48,3 @@ div#surname {
  -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
-=======
-section#main {
-  background-color: #699ef4;
-  width: 90%;
-  height: 800px;
-  margin: 50px auto 0px auto;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
-}
->>>>>>> master
