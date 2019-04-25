@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Saira');
 
 body {
-  background-color: #4077d1;
+  background-color: #5f6063;
   font-family: "Saira", sans-serif;
 }
 
 section {
-  background-color: #699ef4;
-  width: 90%;
+  background-color: #ccbcaf;
+  width: 80%;
   height: 800px;
   margin: 40px auto 40px auto;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
@@ -16,20 +16,22 @@ section {
 article#left {
   width: 70%;
   height: 800px;
-  background-color: white;
+  background-color: #fffff0;
   float: left;
 }
 
 article#right {
   width: 30%;
   height: 800px;
-  background-color: #699ef4;
+  background-color: #b7ab9f;
   float: left;
 }
 
 #profileImg img {
+  background-color: #fffff0;
   width: 250px;
-  margin: 50px 130px;
+  margin-top: 30px;
+  margin-left: 130px;
   box-shadow: 0.5px 1px 2px rgba(0, 0, 0, .5);
   position:absolute;
   -moz-box-shadow: inset 0 0 10px #000000;
@@ -42,19 +44,27 @@ h1 {
   margin: auto 0px;
 }
 
+div#name h1 {
+  color: #fffff0;
+}
+
 div#name {
-  background-color: #699ef4;
+  background-color: #b7ab9f;
   width: 300px;
   height: 100px;
   text-align: right;
-  margin-top: 500px;
+  margin-top: 300px;
   float: right;
   -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
   clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
 }
 
+div#surname h1 {
+  color: #b7ab9f;
+}
+
 div#surname {
-  background-color: white;
+  background-color: #fffff0;
   width: 300px;
   height: 100px;
   text-align: left;
@@ -62,4 +72,15 @@ div#surname {
   float: left;
   -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+div#social {
+  margin-top: 110px;
+  margin-left: 30px;
+  float: left;
+}
+
+div#social img {
+  margin: 10px;
+  float: left;
+
 }
