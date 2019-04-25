@@ -9,22 +9,37 @@ section {
   background-color: #699ef4;
   width: 90%;
   height: 800px;
-  margin: 50px auto 50px auto;
+  margin: 40px auto 40px auto;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
 }
 
 article#left {
-  width: 50%;
+  width: 70%;
   height: 800px;
   background-color: white;
   float: left;
 }
 
 article#right {
-  width: 50%;
+  width: 30%;
   height: 800px;
   background-color: #699ef4;
   float: left;
+}
+
+#profileImg img {
+  width: 250px;
+  margin: 50px 130px;
+  box-shadow: 0.5px 1px 2px rgba(0, 0, 0, .5);
+  position:absolute;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+h1 {
+  font-size: 55px;
+  margin: auto 0px;
 }
 
 div#name {
@@ -34,7 +49,7 @@ div#name {
   text-align: right;
   margin-top: 500px;
   float: right;
- -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
   clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
 }
 
@@ -45,6 +60,6 @@ div#surname {
   text-align: left;
   margin-top: 400px;
   float: left;
- -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
