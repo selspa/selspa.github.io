@@ -74,19 +74,101 @@
     -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   }
-  div#social {
-    display: block;
+
+
+  .social {
+    position: relative;
     margin: 100px auto auto 20px;
     float: left;
   }
 
-  div#social img {
+  /*.social a img {
+    display: block;
+    width: 40px;
+    margin: 10px;
+    float: left;
+
+  }*/
+
+  .social a#linkedin {
     display: block;
     width: 30px;
-    margin: 7px;
+    margin-right: -20px;
     float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-black.png");
+  }
+
+  .social a#linkedin:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
 
   }
 
+  .social a#codepen {
+    display: block;
+    width: 30px;
+    margin-right: -20px;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Codepen-black.png");
+  }
+
+  .social a#codepen:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Codepen-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social a#github {
+    display: block;
+    width: 30px;
+    margin-right: -20px;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Github-black.png");
+  }
+
+  .social a#github:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Github-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social a#facebook {
+    display: block;
+    width: 30px;
+    margin-right: -20px;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Facebook-black.png");
+  }
+
+  .social a#facebook:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Facebook-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social a#instagram  {
+    display: block;
+    width: 30px;
+    margin-right: -20px;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Instagram-black.png");
+  }
+
+  .social a#instagram:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Instagram-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
 
 }
