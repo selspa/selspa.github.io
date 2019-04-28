@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Chathura');
 
 
 body {
@@ -21,6 +23,40 @@ article#left {
   float: left;
 }
 
+div#about-me {
+  display: block;
+  width: 700px;
+  margin: 30px auto;
+}
+
+div#about-me h2 {
+  text-align: center;
+  font-family: "Chathura", sans-serif;
+  margin-top: 0px;
+  font-size: 70px;
+  color: #90877d;
+}
+
+h1 {
+  font-size: 55px;
+  margin: auto 0px;
+}
+
+div#name h1 {
+  color: #fffff0;
+}
+
+div#name {
+  background-color: #b7ab9f;
+  width: 300px;
+  height: 100px;
+  text-align: right;
+  margin-top: 98.5px;
+  float: right;
+  -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+  clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
 article#right {
   display: block;
   width: 400px;
@@ -40,26 +76,6 @@ article#right {
   box-shadow: inset 0 0 10px #000000;
 }
 
-h1 {
-  font-size: 55px;
-  margin: auto 0px;
-}
-
-div#name h1 {
-  color: #fffff0;
-}
-
-div#name {
-  background-color: #b7ab9f;
-  width: 300px;
-  height: 100px;
-  text-align: right;
-  margin-top: 300px;
-  float: right;
-  -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
-  clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
-}
-
 div#surname h1 {
   color: #b7ab9f;
 }
@@ -76,7 +92,7 @@ div#surname {
 }
 .social {
   position: relative;
-  margin: 110px auto auto 20px;
+  margin: 110px auto auto 60px;
   float: left;
 }
 
@@ -88,17 +104,17 @@ div#surname {
 
 }*/
 
-.social a#linkedin {
+.social a#linkedin img {
   display: block;
   width: 40px;
-  margin-right: -20px;
+  margin: 10px 20px 10px auto;
   float: left;
   padding: 25px;
   background-repeat: no-repeat;
   background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-black.png");
 }
 
-.social a#linkedin:hover {
+.social a#linkedin img:hover {
 background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-color.png");
 -webkit-transition: .5s;
     transition: .5s;
@@ -108,7 +124,7 @@ background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io
 .social a#codepen {
   display: block;
   width: 40px;
-  margin-right: -20px;
+  margin: 10px 20px 10px auto;
   float: left;
   padding: 25px;
   background-repeat: no-repeat;
@@ -124,7 +140,7 @@ background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io
 .social a#github {
   display: block;
   width: 40px;
-  margin-right: -20px;
+  margin: 10px 20px 10px auto;
   float: left;
   padding: 25px;
   background-repeat: no-repeat;
@@ -140,7 +156,7 @@ background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io
 .social a#facebook {
   display: block;
   width: 40px;
-  margin-right: -20px;
+  margin: 10px 20px 10px auto;
   float: left;
   padding: 25px;
   background-repeat: no-repeat;
@@ -156,7 +172,7 @@ background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io
 .social a#instagram {
   display: block;
   width: 40px;
-  margin-right: -20px;
+  margin: 10px 20px 10px auto;
   float: left;
   padding: 25px;
   background-repeat: no-repeat;
@@ -165,6 +181,22 @@ background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io
 
 .social a#instagram:hover {
 background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Instagram-color.png");
+-webkit-transition: .5s;
+    transition: .5s;
+}
+
+.social a#twitter {
+  display: block;
+  width: 40px;
+  margin: 10px 20px 10px auto;
+  float: left;
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Twitter-black.png");
+}
+
+.social a#twitter:hover {
+background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Twitter-color.png");
 -webkit-transition: .5s;
     transition: .5s;
 }
