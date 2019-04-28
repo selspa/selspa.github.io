@@ -74,15 +74,6 @@
     color: #90877d;
   }
 
-
-  article#bottom {
-    display: block;
-    width: 350px;
-    height: 600px;
-    background-color: #fffff0;
-    float: left;
-  }
-
   .social-small {
     display: block;
     width: 300px;
@@ -196,9 +187,71 @@
       transition: .5s;
   }
 
+  article#bottom {
+    display: block;
+    width: 350px;
+    height: 850px;
+    background-color: #fffff0;
+    float: left;
+  }
 
+  .image {
+    width: 180px;
+    height: 160px
+  }
 
+  a {
+    text-decoration: none;
+    color: #90877d;
+  }
 
+  a:visited {
+    text-decoration: none;
+    color: #90877d;
+  }
+
+  p {
+    text-align: center;
+    color: #90877d;
+  }
+
+  div#curriculum {
+    position: relative;
+    width: 200px;
+    height: 190px;
+    margin: 50px 20px 20px 80px;
+    float: left;
+  }
+
+  div#curriculum:hover {
+  transform: scale(1.1);
+  }
+
+  div#invisible {
+    display: none;
+  }
+
+  div#blog {
+    width: 200px;
+    height: 190px;
+    margin: 70px 30px 0px 80px;
+    float: left;
+  }
+
+  div#blog:hover {
+  transform: scale(1.1);
+  }
+
+  div#website {
+    width: 200px;
+    height: 190px;
+    margin: 70px auto 0px 90px;
+    float: left;
+  }
+
+  div#website:hover {
+  transform: scale(1.1);
+  }
 
 
 }
