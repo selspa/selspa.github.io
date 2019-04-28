@@ -16,6 +16,10 @@ section {
   box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
 }
 
+article#top, article#bottom {
+  display: none;
+}
+
 article#left {
   width: 800px;
   height: 800px;
@@ -51,7 +55,7 @@ div#name {
   width: 300px;
   height: 100px;
   text-align: right;
-  margin-top: 98.5px;
+  margin-top: 97px;
   float: right;
   -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
   clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
@@ -92,7 +96,7 @@ div#surname {
 }
 .social {
   position: relative;
-  margin: 110px auto auto 60px;
+  margin: 90px auto auto 60px;
   float: left;
 }
 
@@ -104,7 +108,7 @@ div#surname {
 
 }*/
 
-.social a#linkedin img {
+.social a#linkedin {
   display: block;
   width: 40px;
   margin: 10px 20px 10px auto;
@@ -114,7 +118,7 @@ div#surname {
   background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-black.png");
 }
 
-.social a#linkedin img:hover {
+.social a#linkedin:hover {
 background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-color.png");
 -webkit-transition: .5s;
     transition: .5s;
