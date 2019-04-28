@@ -55,10 +55,71 @@ div#name {
   width: 300px;
   height: 100px;
   text-align: right;
-  margin-top: 97px;
+  margin-top: -143px;
   float: right;
   -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
   clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.image {
+  width: 180px;
+  height: 160px
+}
+
+a {
+  text-decoration: none;
+  color: #90877d;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #90877d;
+}
+
+p {
+  text-align: center;
+  color: #90877d;
+}
+
+div#curriculum {
+  position: relative;
+  width: 200px;
+  height: 190px;
+  margin: 0px 20px 20px 150px;
+  float: left;
+}
+
+div#curriculum:hover {
+transform: scale(1.1);
+}
+
+div#invisible {
+  width: 200px;
+  height: 190px;
+  margin: 30px 20px 20px 20px;
+  float: left;
+}
+
+div#blog {
+  width: 200px;
+  height: 190px;
+  margin: 70px 50px 0px 150px;
+  float: left;
+}
+
+div#blog:hover {
+transform: scale(1.1);
+}
+
+div#website {
+  width: 200px;
+  height: 190px;
+  margin: 70px auto 0px 50px;
+  float: left;
+}
+
+div#website:hover {
+transform: scale(1.1);
 }
 
 article#right {
