@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
 @media only screen and (max-width: 959px) {
 
   body {
@@ -93,7 +96,6 @@
   .social a#linkedin {
     display: block;
     width: 30px;
-    margin-right: -20px;
     float: left;
     padding: 25px;
     background-repeat: no-repeat;
@@ -110,7 +112,6 @@
   .social a#codepen {
     display: block;
     width: 30px;
-    margin-right: -20px;
     float: left;
     padding: 25px;
     background-repeat: no-repeat;
@@ -126,7 +127,6 @@
   .social a#github {
     display: block;
     width: 30px;
-    margin-right: -20px;
     float: left;
     padding: 25px;
     background-repeat: no-repeat;
@@ -142,7 +142,6 @@
   .social a#facebook {
     display: block;
     width: 30px;
-    margin-right: -20px;
     float: left;
     padding: 25px;
     background-repeat: no-repeat;
@@ -158,7 +157,6 @@
   .social a#instagram  {
     display: block;
     width: 30px;
-    margin-right: -20px;
     float: left;
     padding: 25px;
     background-repeat: no-repeat;
@@ -167,6 +165,22 @@
 
   .social a#instagram:hover {
   background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Instagram-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social a#twitter {
+    display: block;
+    width: 40px;
+    margin-top: 10px;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Twitter-black.png");
+  }
+
+  .social a#twitter:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Twitter-color.png");
   -webkit-transition: .5s;
       transition: .5s;
   }
