@@ -10,28 +10,33 @@
 
   section {
     background-color: #ccbcaf;
-    width: 600px;
-    height: 600px;
+    width: 350px;
+    height: 1200px;
     margin: 40px auto 40px auto;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
   }
 
-  article#left {
-    width: 600px;
-    height: 600px;
-    background-color: #fffff0;
-    float: left;
+  article#left, article#right {
+    display: none;
   }
 
-  article#right {
+  article#top {
     display: block;
-    width: 300px;
+    width: 350px;
     height: 600px;
     background-color: #b7ab9f;
     float: left;
   }
 
-  #profileImg img {
+  article#bottom {
+    display: block;
+    width: 350px;
+    height: 600px;
+    background-color: #fffff0;
+    float: left;
+  }
+
+  #profileImg-small img {
     display: block;
     background-color: #fffff0;
     width: 170px;
@@ -42,48 +47,36 @@
     box-shadow: inset 0 0 10px #000000;
   }
 
-  h1 {
-    display: block;
-    font-size: 35px;
-    margin: 10px 0px;
+  h1#small {
+    font-size: 25px;
+    margin: 30px auto;
+    padding-top: 15px;
   }
 
-  div#name h1 {
-    color: #fffff0;
-  }
-
-  div#name {
-    background-color: #b7ab9f;
-    width: 200px;
-    height: 70px;
-    text-align: right;
-    margin-top: 240px;
-    float: right;
-    -webkit-clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
-    clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
-  }
-
-  div#surname h1 {
+  div#fullname h1 {
     color: #b7ab9f;
   }
 
-  div#surname {
-    background-color: #fffff0;
-    width: 200px;
-    height: 70px;
-    text-align: left;
-    margin-top: 132px;
-    float: left;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-  }
-  div#social {
+  div#fullname {
     display: block;
-    margin: 90px auto auto 20px;
+    background-color: #fffff0;
+    width: 330px;
+    height: 70px;
+    text-align: center;
+    margin: 70px auto 0px auto;
+
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+
+  .social-small {
+    display: block;
+    width: 300px;
+    margin: 70px auto 0px 52px;
     float: left;
   }
 
-  div#social img {
+  .social-small img {
     display: block;
     width: 30px;
     margin: 7px;
@@ -91,6 +84,117 @@
 
   }
 
+  .social-small a#linkedin {
+    display: block;
+    width: 30px;
+    margin: 10px 20px 10px auto;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-black.png");
+  }
+
+  .social-small a#linkedin:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/LinkedIn-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+
+  }
+
+  .social-small a#codepen {
+    display: block;
+    width: 30px;
+    margin: 10px 20px 10px auto;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Codepen-black.png");
+  }
+
+  .social-small a#codepen:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Codepen-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social-small a#github {
+    display: block;
+    width: 30px;
+    margin: 10px 20px 10px auto;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Github-black.png");
+  }
+
+  .social-small a#github:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Github-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social-small a#facebook {
+    display: block;
+    width: 30px;
+    margin: 10px 20px 10px auto;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Facebook-black.png");
+  }
+
+  .social-small a#facebook:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Facebook-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social-small a#instagram  {
+    display: block;
+    width: 30px;
+    margin: 10px 20px 10px auto;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Instagram-black.png");
+  }
+
+  .social-small a#instagram:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Instagram-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  .social-small a#twitter {
+    display: block;
+    width: 40px;
+    margin: 10px 10px 10px auto;
+    margin-top: 10px;
+    float: left;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Twitter-black.png");
+  }
+
+  .social-small a#twitter:hover {
+  background-image: url("https://raw.githubusercontent.com/selspa/selspa.github.io/master/img/icons/Twitter-color.png");
+  -webkit-transition: .5s;
+      transition: .5s;
+  }
+
+  div#about-me-small {
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+  }
+
+  div#about-me-small h2 {
+    text-align: center;
+    font-family: "Chathura", sans-serif;
+    margin-top: 0px;
+    font-size: 42px;
+    color: #90877d;
+  }
 
 
 }
