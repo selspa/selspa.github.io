@@ -69,6 +69,7 @@
   }
 
   div#name h1 {
+    margin-top: 20px;
     color: #fffff0;
   }
 
@@ -142,6 +143,7 @@
   }
 
   div#surname h1 {
+    margin-top: 20px;
     color: #b7ab9f;
   }
 
@@ -150,7 +152,7 @@
     width: 200px;
     height: 85px;
     text-align: left;
-    margin-top: 163.5px;
+    margin-top: 133px;
     float: left;
     -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
